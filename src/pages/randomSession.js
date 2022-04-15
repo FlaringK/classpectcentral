@@ -28,21 +28,21 @@ const RandSession = (props) => {
   const [ requiredAspects, setRequiredAspects ] = useState("None")
   const [ showSession, setShowSession ] = useState(false)
 
-  let randAspectList
+  let randAspectList = shuffle(aspectClasses.aspects.map(e => e.name))
 
   switch (requiredAspects) {
     case "Space":
-      randAspectList = shuffle(aspectClasses.aspects.map(e => e.name).filter(e => e !== "space")).slice(0, players)
-      randAspectList = shuffle(randAspectList.slice(1).concat(["space"]))
+      while (!randAspectList.slice(0, players).includes("space")) {
+        randAspectList = shuffle(randAspectList)
+      }
       break
     case "Time and Space":
-      randAspectList = shuffle(aspectClasses.aspects.map(e => e.name).filter(e => e !== "space" && e !== "time")).slice(0, players)
-      randAspectList = shuffle(randAspectList.slice(2).concat(["space", "time"]))
+      while (!randAspectList.slice(0, players).includes("space") || !randAspectList.slice(0, players).includes("time")) {
+        randAspectList = shuffle(randAspectList)
+      }
       break
-    default:
-      randAspectList = shuffle(aspectClasses.aspects.map(e => e.name)).slice(0, players)
-      break;
   }
+
 
   const randClassList = shuffle(aspectClasses.classes.map(e => e.name)).slice(0, players)
   let randSessionClasspects = randClassList.map((e, i) => [e, randAspectList[i]])
@@ -51,7 +51,7 @@ const RandSession = (props) => {
     <div id="randomSession" className="main">
       <h1>Random Session</h1>
       <div className="contentBox">
-        This is a random session generator
+        This is a random session generator. There are of course, plenty of other applications that do a far better job of creating and even simulating a random sburb session. This tool is just a bit of fun to help visualise a story.
       </div>
       <div className="contentBox" id="sessionOptions">
 
@@ -65,11 +65,15 @@ const RandSession = (props) => {
           setShowSession(false)
           }} />
         
-        <button onClick={() => { setShowSession(true) }}>Show Session</button>
+        <button onClick={() => { showSession ? setShowSession(false) : setShowSession(true) }}>
+          { showSession ? "Destory " : "Generate " } Session
+        </button>
       </div>
 
 
-      <div id="randomSessionRender" className={showSession ? "open" : "closed"}>
+      <div id="randomSessionRender" style={{
+        height: "40em"
+      }}>
         { showSession ? <ClasspectHighlight 
           title="Main Character:"
           highlight={randSessionClasspects[0]}
