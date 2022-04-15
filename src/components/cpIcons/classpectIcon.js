@@ -19,7 +19,7 @@ const ClasspectIcon = (props) => {
   }
 
   return ( 
-    <div className={"classpect " + iconAspect + " " + iconClass } onClick={handleOnClick}
+    <div className={"classpect " + iconAspect + " " + iconClass } onClick={handleOnClick} 
 // @ts-ignore
     style={itemNo ? itemNo : {}}>
       
