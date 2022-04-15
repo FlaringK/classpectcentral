@@ -31,6 +31,9 @@
   
   width: min-content;
 
+  clip-path: circle(31.25% at 50% 50%);
+  background-color: grey;
+  background-image: radial-gradient(circle, rgba(174,255,0,1) 25%, grey 25%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40%;
@@ -54,6 +57,7 @@
 .classpect.blood {
   background-color: var(--blood2);
   background-image: url(./ClasspectSvg/Aspects/blood.svg);
+  background-position: 50% 53%;
 }
 .classpect.light {
   background-color: var(--light2);
@@ -72,6 +76,7 @@
 .classpect.heart {
   background-color: var(--heart2);
   background-image: url(./ClasspectSvg/Aspects/heart.svg);
+  background-position: 50% 53%;
 }
 .classpect.life {
   background-color: var(--life2);
@@ -86,6 +91,7 @@
   background-color: var(--hope2);
   background-image: url(./ClasspectSvg/Aspects/hope.svg);
   background-size: 50%;
+  background-position: 50% 53%;
 }
 .classpect.rage {
   background-color: var(--rage2);
@@ -108,6 +114,7 @@
 .classpect:hover {
   background-size: 30%;
 }
+.classpect.life:hover { background-size: 20%; } 
 
 .orbit {
   --items: 4;

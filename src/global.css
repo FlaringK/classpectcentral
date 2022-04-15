@@ -15,3 +15,37 @@ body {
   font-weight: 400;
   color: white;
 }
+
+h1 {
+  font-family: 'Fontstuck extended';
+  font-size: 5em;
+  font-weight: 400;
+  text-align: center;
+
+  margin: 0;
+
+  text-shadow: 0.05em 0.05em 0 black, 0.1em 0.1em 0 black, 0.15em 0.15em 0 black ;
+}
+
+#navbar {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+#navbar ul {  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#navbar li {
+  display: inline;
+}
+#navbar a {
+  display: inline-block;
+  color: white;
+  padding: 8px;
+}
+
+.main { 
+  max-width: 900px;
+  margin: auto;
+}

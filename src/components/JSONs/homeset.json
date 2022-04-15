@@ -1,0 +1,54 @@
+[
+  {
+    "setname": "Homestuck: Beta Kids",
+    "set": [
+      ["heir", "breath"],
+      ["seer", "light"],
+      ["knight", "time"],
+      ["witch", "space"]
+    ]
+  },
+  {
+    "setname": "Homestuck: Alpha Kids",
+    "set": [
+      ["maid", "life"],
+      ["page", "hope"],
+      ["rogue", "void"],
+      ["prince", "heart"]
+    ]
+  },
+  {
+    "setname": "Homestuck: Alternian Trolls",
+    "set": [
+      ["page", "breath"],
+      ["witch", "life"],
+      ["thief", "light"],
+      ["maid", "time"],
+      ["rogue", "heart"],
+      ["bard", "rage"],
+      ["knight", "blood"],
+      ["mage", "doom"],
+      ["heir", "void"],
+      ["sylph", "space"],
+      ["seer", "mind"],
+      ["prince", "hope"]
+    ]
+  },
+  {
+    "setname": "Homestuck: Beforus Trolls",
+    "set": [
+      ["rogue", "breath"],
+      ["thief", "life"],
+      ["sylph", "light"],
+      ["witch", "time"],
+      ["mage", "heart"],
+      ["prince", "rage"],
+      ["seer", "blood"],
+      ["heir", "doom"],
+      ["page", "void"],
+      ["maid", "space"],
+      ["knight", "mind"],
+      ["bard", "hope"]
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+#classpectSelected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+}
+
+#classpectInfo {
+  display: flex;
+  gap: 2vw;
+
+  justify-content: center;
+  margin-top: 1em;
+}
+
+#classpectInfo > div {
+  background: rgba(0, 0, 0, 0.5);
+  flex-grow: 1;
+}
