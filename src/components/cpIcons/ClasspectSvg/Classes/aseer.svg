@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 1 1"
+     version="1.1"
+     id="svg45927"
+     inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+     sodipodi:docname="aseer.svg"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:svg="http://www.w3.org/2000/svg">
+    <sodipodi:namedview
+         id="namedview45929"
+         pagecolor="#ffffff"
+         bordercolor="#111111"
+         borderopacity="1"
+         inkscape:pageshadow="0"
+         inkscape:pageopacity="0"
+         inkscape:pagecheckerboard="1"
+         inkscape:document-units="mm"
+         showgrid="false"
+         inkscape:snap-nodes="false"
+         inkscape:snap-global="false"
+         inkscape:zoom="2.1014404"
+         inkscape:cx="103.02457"
+         inkscape:cy="143.94888"
+         inkscape:window-width="1920"
+         inkscape:window-height="1001"
+         inkscape:window-x="-9"
+         inkscape:window-y="-9"
+         inkscape:window-maximized="1"
+         inkscape:current-layer="layer1" />
+    <defs
+         id="defs45924" />
+    <g
+         inkscape:label="Layer 1"
+         inkscape:groupmode="layer"
+         id="layer1">
+        <path
+             id="path1791"
+             style="fill:#808080;stroke-width:0.00650737"
+             d="m 0.9375,0.50000002 c 0,0 -0.26491104,0.31249998 -0.43750006,0.31249998 c -0.17258903,0 -0.43749994,-0.31249998 -0.43749994,-0.31249998 c 0,0 0.26491091,-0.31250002 0.43749994,-0.31250002 c 0.17258902,0 0.43750006,0.31250002 0.43750006,0.31250002 z"
+             sodipodi:nodetypes="cscsc" />
+    </g>
+</svg>

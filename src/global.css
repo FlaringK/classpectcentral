@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Fontstuck extended';
+  src: url(/public/fontstuck-extended.ttf);
+}
+
+body {
+  margin: 0;
+
+  background: linear-gradient(60deg, rgba(246,179,229,1) 0%, rgba(114,50,242,1) 33%, rgba(33,17,93,1) 80%, rgba(11,1,45,1) 100%);
+  background-attachment: fixed;
+  background-size: 100%;
+  
+
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  color: white;
+}
