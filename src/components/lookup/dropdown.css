@@ -1,0 +1,41 @@
+.dropdown {
+  margin: 0.5em;
+  padding: 0.5em;
+  background: black;
+
+  border-radius: 0.5em;
+}
+
+.dropdownDisplay {
+  font-weight: bold;
+  margin: -0.5em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+.dropdownDisplay::after {
+  float: right;
+}
+.dropdown.closed .dropdownDisplay::after { content: "▼"}
+.dropdown.open .dropdownDisplay::after { content: "▲"}
+
+.dropdownList {
+  max-height: 20em;
+  transition: max-height 250ms linear;
+  overflow: hidden;
+}
+.dropdownList ul {
+  margin: 0em;
+  padding: 0.4em;
+  list-style: none;
+}
+.dropdownList li {
+  cursor: pointer;
+}
+.dropdownList li:hover {
+  background: white;
+  color: black;
+}
+
+.dropdown.closed .dropdownList {
+  max-height: 0;
+}

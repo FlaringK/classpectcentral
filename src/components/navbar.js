@@ -9,6 +9,7 @@ const Navbar = (props) => {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Lookup">Classpect Lookup</Link></li>
+          <li><Link to="/session">Random Session</Link></li>
         </ul>
       </div>
     </div>
