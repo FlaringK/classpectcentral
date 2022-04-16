@@ -12,9 +12,9 @@ const MainApp = (props) => {
     <Router>
     <Navbar />
     <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/lookup' element={<ClasspectLoopup />} />
-        <Route path='/session' element={<RandSession />} />
+        <Route path='/classpectcentral/' element={<Home />} />
+        <Route path='/classpectcentral/lookup' element={<ClasspectLoopup />} />
+        <Route path='/classpectcentral/session' element={<RandSession />} />
     </Routes>
     <Footer />
     </Router>

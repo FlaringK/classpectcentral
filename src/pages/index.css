@@ -1,0 +1,9 @@
+#setName {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+
+  width: max-content;
+  position: absolute;
+  top: 1em;
+  left: 2em;
+}

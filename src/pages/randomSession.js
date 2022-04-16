@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Dropdown from "../components/lookup/dropdown";
 import ClasspectHighlight from "../components/cpIcons/classpectHighlight";
 import aspectClasses from "../components/JSONs/aspectsClasses.json"
+import "./randomSession.css"
 
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 const shuffle = (array) => {
@@ -26,6 +27,7 @@ const RandSession = (props) => {
 
   const [ players, setPlayers ] = useState(12)
   const [ requiredAspects, setRequiredAspects ] = useState("None")
+  const [ showMoons, setShowMoons ] = useState(false)
   const [ showSession, setShowSession ] = useState(false)
 
   let randAspectList = shuffle(aspectClasses.aspects.map(e => e.name))
@@ -64,14 +66,19 @@ const RandSession = (props) => {
           setRequiredAspects(value); 
           setShowSession(false)
           }} />
+
+        <Dropdown list={["Yes", "No"]} title="Show Moons: " selected={showMoons ? "Yes" : "No"} select={(value) => { 
+          setShowMoons(value == "Yes"); 
+          setShowSession(false)
+          }} />
         
-        <button onClick={() => { showSession ? setShowSession(false) : setShowSession(true) }}>
+        <button onClick={() => showSession ? setShowSession(false) : setShowSession(true) }>
           { showSession ? "Destory " : "Generate " } Session
         </button>
       </div>
 
 
-      <div id="randomSessionRender" style={{
+      <div id="randomSessionRender" className={showMoons ? (Math.floor(Math.random() * 2) == 0 ? "prospitPriority" : "dersePriority") : "" } style={{
         height: "40em"
       }}>
         { showSession ? <ClasspectHighlight 

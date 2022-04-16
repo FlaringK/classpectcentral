@@ -1,6 +1,5 @@
 import React, { useCallback } from "react";
 import {useNavigate} from 'react-router-dom';
-import "./classpects.css"
 import aspectClasses from "../JSONs/aspectsClasses.json"
 
 const ClasspectIcon = (props) => {
@@ -12,17 +11,22 @@ const ClasspectIcon = (props) => {
 
   const navigate = useNavigate();
   const url = "/lookup/?class=" + iconClass + "&aspect=" + iconAspect
-  const handleOnClick = useCallback(() => navigate(url, {replace: true}), [navigate]);
+  const routeNewPage = useCallback(() => navigate(url, {replace: true}), [navigate]);
+  const handleOnClick = () => {
+    window.scrollTo(0, 0);
+    routeNewPage()
+  }
 
   const itemNo = {
     "--itemNo": props.itemNo
   }
 
   return ( 
-    <div className={"classpect " + iconAspect + " " + iconClass } onClick={handleOnClick} 
-// @ts-ignore
+    <div className="classpectWrap"   
+    // @ts-ignore
     style={itemNo ? itemNo : {}}>
-      
+      <div className={"classpect " + iconClass + " " + iconAspect } onClick={handleOnClick} > </div>
+      <div className="classpectInfo">The {iconClass} of {iconAspect} </div>
     </div>
    );
 }

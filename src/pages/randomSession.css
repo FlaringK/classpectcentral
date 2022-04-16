@@ -1,0 +1,7 @@
+.prospitPriority .orbit .classpectWrap:nth-child(odd), .dersePriority .orbit .classpectWrap:nth-child(even) {
+  background: radial-gradient(circle, rgba(253,229,0,1) 0%, rgba(0,0,0,0) 70%);
+}
+
+.prospitPriority .orbit .classpectWrap:nth-child(even), .dersePriority .orbit .classpectWrap:nth-child(odd) {
+  background: radial-gradient(circle, #ba00fd 0%, rgba(0,0,0,0) 70%);
+}

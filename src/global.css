@@ -58,6 +58,7 @@ h4 { font-size: 2em; }
 .main { 
   max-width: 900px;
   margin: auto;
+  position: relative;
 }
 .contentBox {
   background: rgba(0, 0, 0, 0.5);

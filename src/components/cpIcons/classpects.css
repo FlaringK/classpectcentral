@@ -116,6 +116,10 @@
 }
 .classpect.life:hover { background-size: 20%; } 
 
+.classpectWrap {
+  position: relative;
+}
+
 .orbit {
   --items: 4;
 
@@ -130,7 +134,7 @@
   z-index: -1;
 }
 
-.orbit > .classpect {
+.orbit .classpectWrap {
   --itemNo: 1;
   --degrees: calc(180 - 360 * (var(--itemNo) / var(--items)));
   --angle: calc(var(--degrees) * 0.01745329251);
@@ -163,6 +167,33 @@
   animation: itemSpin 30s both linear infinite;
 }
 
+.classpectWrap .classpect {
+  width: 100%;
+  height: 100%;
+}
+.classpectWrap .classpectInfo {
+  position: absolute;
+  top: 80%;
+
+  left: -50%;
+  right: -50%;
+  text-align: center;
+
+  z-index: 4;
+  font-weight: bold;
+
+  opacity: 0;
+  transition: opacity 500ms;
+  
+  color: white;
+  text-shadow: 0 0 5px black;
+
+  pointer-events: none;
+}
+.orbit .classpectWrap:hover .classpectInfo {
+  opacity: 1;
+}
+
 @keyframes orbitSpin { 
   100% { transform: rotate(360deg); } 
 }
@@ -172,7 +203,7 @@
 }
 
 #classpectday {
-  width: 40em;
+  padding: 0 calc(50% - 20em);
   height: 40em;
   margin: auto;
 
@@ -189,7 +220,6 @@
 }
 #classpectdayinfo .classpect {
   margin: auto;
-  margin-top: -10%;
   width: 12em;
   height: 12em;
 }
