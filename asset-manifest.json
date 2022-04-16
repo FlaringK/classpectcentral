@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/classpectcentral/static/css/main.5a649219.css",
+    "main.js": "/classpectcentral/static/js/main.105dfdd0.js",
+    "static/media/fontstuck-extended.ttf": "/classpectcentral/static/media/fontstuck-extended.6f60949911ea58e47347.ttf",
+    "static/media/hope.svg": "/classpectcentral/static/media/hope.56ad8dbeed883dcb974f.svg",
+    "static/media/light.svg": "/classpectcentral/static/media/light.7acde3994c67309fb9b6.svg",
+    "static/media/rage.svg": "/classpectcentral/static/media/rage.5f611e7a08639483d28e.svg",
+    "static/media/heart.svg": "/classpectcentral/static/media/heart.b3f872b1f1b2770d73a2.svg",
+    "static/media/doom.svg": "/classpectcentral/static/media/doom.4d72f3917d832ed1cb79.svg",
+    "static/media/mind.svg": "/classpectcentral/static/media/mind.bde47316470824fd18d2.svg",
+    "static/media/space.svg": "/classpectcentral/static/media/space.75677fe00fe19a507f94.svg",
+    "static/media/breath.svg": "/classpectcentral/static/media/breath.848f508d689ea04f032f.svg",
+    "static/media/life.svg": "/classpectcentral/static/media/life.a9dbbe941a7f14a61ff4.svg",
+    "static/media/time.svg": "/classpectcentral/static/media/time.9ad68a8c91312c7b7544.svg",
+    "static/media/blood.svg": "/classpectcentral/static/media/blood.fab9fd87ea3d4dbbd00f.svg",
+    "static/media/void.svg": "/classpectcentral/static/media/void.a7c221238f9078f6e341.svg",
+    "index.html": "/classpectcentral/index.html",
+    "main.5a649219.css.map": "/classpectcentral/static/css/main.5a649219.css.map",
+    "main.105dfdd0.js.map": "/classpectcentral/static/js/main.105dfdd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a649219.css",
+    "static/js/main.105dfdd0.js"
+  ]
+}
