@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/classpectcentral/static/css/main.5a649219.css",
-    "main.js": "/classpectcentral/static/js/main.c82e1035.js",
+    "main.css": "/classpectcentral/static/css/main.6a0d6a89.css",
+    "main.js": "/classpectcentral/static/js/main.a093dfab.js",
     "static/media/fontstuck-extended.ttf": "/classpectcentral/static/media/fontstuck-extended.6f60949911ea58e47347.ttf",
     "static/media/hope.svg": "/classpectcentral/static/media/hope.56ad8dbeed883dcb974f.svg",
     "static/media/light.svg": "/classpectcentral/static/media/light.7acde3994c67309fb9b6.svg",
@@ -16,11 +16,11 @@
     "static/media/blood.svg": "/classpectcentral/static/media/blood.fab9fd87ea3d4dbbd00f.svg",
     "static/media/void.svg": "/classpectcentral/static/media/void.a7c221238f9078f6e341.svg",
     "index.html": "/classpectcentral/index.html",
-    "main.5a649219.css.map": "/classpectcentral/static/css/main.5a649219.css.map",
-    "main.c82e1035.js.map": "/classpectcentral/static/js/main.c82e1035.js.map"
+    "main.6a0d6a89.css.map": "/classpectcentral/static/css/main.6a0d6a89.css.map",
+    "main.a093dfab.js.map": "/classpectcentral/static/js/main.a093dfab.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a649219.css",
-    "static/js/main.c82e1035.js"
+    "static/css/main.6a0d6a89.css",
+    "static/js/main.a093dfab.js"
   ]
 }
