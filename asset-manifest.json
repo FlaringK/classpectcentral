@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/classpectcentral/static/css/main.6a0d6a89.css",
-    "main.js": "/classpectcentral/static/js/main.f04fc90d.js",
+    "main.js": "/classpectcentral/static/js/main.b09742d2.js",
     "static/media/fontstuck-extended.ttf": "/classpectcentral/static/media/fontstuck-extended.6f60949911ea58e47347.ttf",
     "static/media/hope.svg": "/classpectcentral/static/media/hope.56ad8dbeed883dcb974f.svg",
     "static/media/light.svg": "/classpectcentral/static/media/light.7acde3994c67309fb9b6.svg",
@@ -17,10 +17,10 @@
     "static/media/void.svg": "/classpectcentral/static/media/void.a7c221238f9078f6e341.svg",
     "index.html": "/classpectcentral/index.html",
     "main.6a0d6a89.css.map": "/classpectcentral/static/css/main.6a0d6a89.css.map",
-    "main.f04fc90d.js.map": "/classpectcentral/static/js/main.f04fc90d.js.map"
+    "main.b09742d2.js.map": "/classpectcentral/static/js/main.b09742d2.js.map"
   },
   "entrypoints": [
     "static/css/main.6a0d6a89.css",
-    "static/js/main.f04fc90d.js"
+    "static/js/main.b09742d2.js"
   ]
 }
