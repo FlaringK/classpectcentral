@@ -10,6 +10,7 @@ const Navbar = (props) => {
           <li><Link to="/classpectcentral/">Home</Link></li>
           <li><Link to="/classpectcentral/lookup">Classpect Lookup</Link></li>
           <li><Link to="/classpectcentral/session">Random Session</Link></li>
+          <li><Link to="/classpectcentral/credits">Credits</Link></li>
         </ul>
       </div>
     </div>

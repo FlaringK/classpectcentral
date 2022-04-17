@@ -14,8 +14,8 @@ const Lookup = (props) => {
   const aspectList = aspectClasses.aspects
   const classList = aspectClasses.classes
 
-  const [ aspect, setAspect ] = useState(queryParams.get('aspect'))
-  const [ Cclass, setCclass ] = useState(queryParams.get('class'))
+  const [ aspect, setAspect ] = useState(queryParams.get('aspect') ? queryParams.get('aspect') : "breath")
+  const [ Cclass, setCclass ] = useState(queryParams.get('class') ? queryParams.get('class') : "heir")
 
   const selectedAspect = aspectList.filter(obj => obj.name === aspect)[0]
   const selectedClass = classList.filter(obj => obj.name === aspect)[0]
@@ -42,6 +42,10 @@ const Lookup = (props) => {
           <h4>Class</h4>
           <Dropdown select={(Cclass) => setCclass(Cclass)} list={classList.map(e => e.name)} selected={Cclass ? Cclass : "null"} />
         </div>
+      </div>
+
+      <div className="contentBox">
+        If you'd like to add your own interpretation, or you know of an interpretation that would fit well here, feel free to DM my on discord! ( FlaringK#4275 on Discord )
       </div>
     </div>
    );

@@ -10,7 +10,7 @@ const ClasspectIcon = (props) => {
   const iconClass = classList.includes(props.class) ? props.class : "null"
 
   const navigate = useNavigate();
-  const url = "/lookup/?class=" + iconClass + "&aspect=" + iconAspect
+  const url = "/classpectcentral/lookup/?class=" + iconClass + "&aspect=" + iconAspect
   const routeNewPage = useCallback(() => navigate(url, {replace: true}), [navigate]);
   const handleOnClick = () => {
     window.scrollTo(0, 0);
