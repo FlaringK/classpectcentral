@@ -10,7 +10,7 @@ const Credits = (props) => {
         <div className="contentSection">
           <h5>People</h5>
           <ul>
-            <li><a href="https://twitter.com/EtchJetty">EtchJetty</a> for being a huge inspration for this site, and her cool as shit classpect api</li>
+            <li><a href="https://twitter.com/EtchJetty">EtchJetty</a> for being a huge inspration for this site, <a href="https://erijancentral.com/api"> and her cool as shit classpect api</a></li>
             <li><a href="">joyest_day</a> for helping a ton with the Class icons</li>
           </ul>
         </div>

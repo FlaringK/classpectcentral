@@ -17,7 +17,7 @@ const ClasspectOfDay = (props) => {
       redirect: 'follow'
     };
     // @ts-ignore
-    fetch("https://aeich.pythonanywhere.com/api/v1/classpects/cotd/", { "seed": cotdIndex })
+    fetch("https://erijancentral.com/api/v1/classpects/cotd/", { "seed": cotdIndex })
     .then(response => response.json())
     .then(result => {
       var classpect = [result["todayscspect"]["class"]["name"].toLowerCase(), result["todayscspect"]["aspect"]["name"].toLowerCase()]
